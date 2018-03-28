@@ -34,6 +34,7 @@ class ApplicationController < Sinatra::Base
     else
       redirect to '/sessions/login'
     end
+    
     redirect '/users/home'
   end
 
